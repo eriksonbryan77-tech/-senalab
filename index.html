@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SENALAB — Projeto INFEM</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #07111f;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #07111f, #102a43);
+      border-bottom: 1px solid #1f4566;
+    }
+
+    .logo {
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      color: #38bdf8;
+    }
+
+    .subtitle {
+      margin-top: 8px;
+      color: #94a3b8;
+      font-size: 18px;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 7px 14px;
+      border: 1px solid #22c55e;
+      border-radius: 30px;
+      color: #4ade80;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 950px;
+      margin: auto;
+      padding: 35px 18px 70px;
+    }
+
+    .card {
+      background: #0f1e30;
+      border: 1px solid #20364f;
+      border-radius: 15px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-bottom: 12px;
+    }
+
+    .experiment {
+      border-left: 4px solid #22c55e;
+    }
+
+    .status {
+      color: #4ade80;
+      font-weight: bold;
+    }
+
+    .number {
+      font-size: 32px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-top: 18px;
+    }
+
+    .metric {
+      background: #091525;
+      padding: 18px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .metric span {
+      display: block;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #64748b;
+      border-top: 1px solid #1e293b;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">SENALAB</div>
+  <div class="subtitle">Projeto INFEM</div>
+
+  <p style="margin-top:18px;">
+    Laboratório independente de estratégias,
+    simulações e experimentos estatísticos aplicados a loterias.
+  </p>
+
+  <div class="badge">● EXPERIMENTO ATIVO</div>
+</header>
+
+<main>
+
+  <section class="card">
+    <h2>INFEM</h2>
+    <p>
+      Infraestrutura experimental para registrar hipóteses,
+      congelar previsões antes dos sorteios e comparar métodos
+      com controles aleatórios.
+    </p>
+  </section>
+
+  <section class="card experiment">
+    <h2>EXP-001 — Mega-Sena</h2>
+
+    <p>Status: <span class="status">CONGELADO</span></p>
+    <p>Concurso-alvo: <strong>3067</strong></p>
+    <p>Sorteio previsto: <strong>06/10/2026</strong></p>
+
+    <div class="grid">
+
+      <div class="metric">
+        <div class="number">500</div>
+        <span>Modelo INFEM</span>
+      </div>
+
+      <div class="metric">
+        <div class="number">500</div>
+        <span>Controle aleatório</span>
+      </div>
+
+      <div class="metric">
+        <div class="number">1.000</div>
+        <span>Apostas virtuais</span>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Metodologia</h2>
+    <p>
+      O protocolo é registrado antes do resultado do concurso.
+      Depois do sorteio, os grupos são comparados usando exatamente
+      os cartões previamente congelados.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Princípio do projeto</h2>
+    <p>
+      Resultado primeiro não. Hipótese primeiro, registro primeiro,
+      sorteio depois.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  SENALAB — Projeto INFEM • Experimentos estatísticos
+</footer>
+
+</body>
+</html>
